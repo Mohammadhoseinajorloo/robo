@@ -1,0 +1,25 @@
+body {
+  background-color: #14181e;
+  font-weight: 400;
+  line-height: 1.65;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+dl.field-list {
+  display: grid;
+  grid-template-columns: unset;
+}
+
+dt.field-odd {
+  background-color: gray;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
